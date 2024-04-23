@@ -237,7 +237,7 @@ const draw = (t) => {
                 particle.z = 10000;
             }
         }
-        particles.geometry.verticesNeedUpdate = true;
+        particles.geometry.verticesNeedUpdate = false;
     }
 
     renderer.render(scene, camera);
